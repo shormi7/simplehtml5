@@ -1,0 +1,14 @@
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+nav li :hover{
+    background-color: antiquewhite;
+
+}

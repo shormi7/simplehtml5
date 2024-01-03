@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<style>
+    label{
+display: block;
+margin-bottom: 10px;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="nav.html">Nev</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="audiovideo.html">Audio and Vedio</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+
+        <h2>This is my first Navber</h2>
+    </nav>
+    
+<h2>Learning Year</h2>
+
+<form >
+    <label for="name">
+<input id="name" type="text"placeholder="Your Name">
+    </label>
+
+    <label for="email">
+<input id="name" type="email"placeholder="Your Email">
+    </label>
+
+    <label for="number">
+<input id="name" type="number"placeholder="Your Number">
+    </label>
+
+    <fieldset>
+        <legend>Pick one course</legend>
+
+        <label for="web developer">
+            <input type="radio" name="course" id="web developer">Web Developer
+        </label>
+
+        <label for="app developer">
+            <input type="radio" name="course" id="app developer">App Developer
+        </label>
+
+        <label for="fluter">
+            <input type="radio" name="course" id="fluter">fluter
+        </label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>pick one or maney course</legend>
+        <label for="">
+            <input type="checkbox" name="developer" id="webdeveloper">Web developer
+        </label>
+        <label for="">
+            <input type="checkbox" name="developer" id="appdeveloper">App developer
+        </label>
+        <label for="">
+            <input type="checkbox" name="developer" id="flluter">flluter
+        </label>
+        <label for="">
+            <input type="checkbox" name="developer" id="python">Python
+        </label>
+    </fieldset>
+    <br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    
+</form>
+    
+</body>
+</html>
